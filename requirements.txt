@@ -21,3 +21,5 @@ brseclabcripto
 beautifulsoup4
 apprise
 gitpython
+Flask-RESTful
+Flask-Cors
