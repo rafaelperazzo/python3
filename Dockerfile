@@ -10,4 +10,6 @@ RUN cd /opt/Python-3.13.3 && ./configure --enable-optimizations --with-ssl-defau
 COPY requirements.txt ./
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir -r requirements.txt
+RUN apt-get -y clean
+RUN apt-get -y autoremove
 EXPOSE 80
