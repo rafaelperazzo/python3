@@ -23,3 +23,6 @@ apprise
 gitpython
 Flask-RESTful
 Flask-Cors
+sentry-sdk[flask]
+flask-login
+
