@@ -27,3 +27,6 @@ sentry-sdk[flask]
 flask-login
 logtail-python
 Flask-SQLAlchemy
+Flask-Limiter
+Flask-Session
+flask-talisman
