@@ -23,7 +23,7 @@ apprise
 gitpython
 Flask-RESTful
 Flask-Cors
-sentry-sdk[flask]
+sentry-sdk[flask,loguru]
 flask-login
 logtail-python
 Flask-SQLAlchemy
