@@ -31,3 +31,4 @@ Flask-Limiter[redis]
 Flask-Session
 flask-talisman
 loguru
+Flask-APScheduler
