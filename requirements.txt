@@ -32,7 +32,4 @@ Flask-Session
 flask-talisman
 loguru
 Flask-APScheduler
-psutil
-docopt
-typing_extensions
-
+geoip2
