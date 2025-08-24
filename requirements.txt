@@ -33,3 +33,5 @@ flask-talisman
 loguru
 Flask-APScheduler
 geoip2
+minio
+boto3
