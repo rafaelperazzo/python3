@@ -7,6 +7,7 @@ RUN apt-get install -y wget make build-essential libssl-dev zlib1g-dev libbz2-de
 RUN wget -O /opt/Python-3.13.7.tar.xz https://www.python.org/ftp/python/3.13.7/Python-3.13.7.tar.xz
 RUN tar -xf /opt/Python-3.13.7.tar.xz -C /opt
 RUN cd /opt/Python-3.13.7 && ./configure --enable-optimizations --with-ssl-default-suites=openssl && make && make install
+RUN apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 libjpeg-dev libopenjp2-7-dev libffi-dev
 COPY requirements.txt ./
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir -r requirements.txt
